@@ -41,7 +41,7 @@ Os conteúdos principais  a serem estudados são:
 
 
 ### Link para Aplicação
-    (https://pokemon-emerson-costa-pokereactapi.surge.sh)
+    https://pokemon-emerson-costa-pokereactapi.surge.sh
 
 
 
