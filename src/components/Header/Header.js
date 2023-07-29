@@ -1,4 +1,4 @@
-import react, { useContext } from "react"
+import { useContext } from "react"
 import { HeaderContainer, RightHeaderButton, ImgLogo } from "./Style"
 import { LeftHeaderButton } from "./Style"
 import { useLocation } from "react-router-dom";
