@@ -18,7 +18,7 @@ const Header = () => {
     // console.log(pathname);
     const navigate = useNavigate()
     const NomePoke = pathname.split("/")[2]
-    const { pokedex, setPokedex, removerpokemon } = useContext(GlobalStateContext)
+    const { pokedex, setPokedex, removerpokemon,setIsOpen,setControlModal } = useContext(GlobalStateContext)
     const PokemonNoPoke = pokedex.find((poke) => poke.name === NomePoke)
 
 
@@ -37,6 +37,8 @@ const Header = () => {
         nextpage = () => gotoPokemonListPage(navigate)
     }
     const adicionarPokedex = (nome) => {
+        setControlModal(1)
+        setIsOpen(true)
         NomeDoPokemon(nome, (setData) => {
             setPokedex([...pokedex, setData])
         })

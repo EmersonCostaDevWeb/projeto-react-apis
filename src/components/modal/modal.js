@@ -18,7 +18,6 @@ export default function ModalPoke() {
                 <ModalContent>
                     {controlModal === 1 ? (
                         <>
-                            <Heading>Gotcha!</Heading>
                             <Flex
                                 justifyContent={"center"}
                                 alignItems={"center"}
@@ -26,7 +25,7 @@ export default function ModalPoke() {
                                 w={"450px"} h={"200px"}>
                                 <Heading>Gotcha!!</Heading>
                                 <Text fontWeight={"bold"}>
-                                    O Pokemons foi adicionado ao Pokedex
+                                    O pokémon foi adicionado ao Pokedex
                                 </Text>
                             </Flex>
                         </>
@@ -38,7 +37,7 @@ export default function ModalPoke() {
                                 flexDirection={"column"}>
                                 <Heading>Oh, no!</Heading>
                                 <Text fontWeight={"bold"}>
-                                    O pokemon foi removido da pokedex
+                                    O pokémon foi removido da Pokedex
                                 </Text>
                             </Flex>
                         </>
